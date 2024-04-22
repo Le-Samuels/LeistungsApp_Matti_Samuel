@@ -1,6 +1,6 @@
 # LeistungsApp_Matti_Samuel
 ## Anwendung
-Dieser Code generiert ein von Matplotlib erstelltes Diagramm in welchem eine Power-Curve dargestellt. Es kann eine Liste von unsortierten Messwerten als input in die Applikation gegeben werden.
+Dieser Code generiert ein von Matplotlib erstelltes Diagramm welches eine Power-Curve dargestellt. Es kann eine Liste von unsortierten Messwerten in die Applikation.
 ## Setup
 - Laden sie sich das Repository in die gewünschte Programierumgebung
 - Öffnen sie die Conole und legen sie hier ein Virtuelles Enviorment an mit: ```python -m venv .venv```
