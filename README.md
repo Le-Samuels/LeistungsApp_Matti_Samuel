@@ -11,4 +11,4 @@ Dieser Code generiert ein von Matplotlib erstelltes Diagramm welches eine Power-
 - Führen sie nun ```python main.py``` aus
 ## Anmerkungen zur Applikation
   - Ihre Daten werden hier mithilfe des Bubble Sort Algorithmus sortiert, wenn hier ein anderer Sortieralgorithmus gewünscht ist können sie diesen in dem File ```sort.py``` anpassen.
-  - Numpy wird im Code als ```np``` und matplotlib.pyplot als```plt``` genutzt
+  - Numpy wird im Code als ```np``` und matplotlib.pyplot als ```plt``` genutzt
