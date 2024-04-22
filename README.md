@@ -1,6 +1,13 @@
 # LeistungsApp_Matti_Samuel
-## Folgendes sollten sie beim verwenden dieser Apps verwenden und beachten!
-1. Downloaden sie den Code über den Link in dem Repository 
-2. Erstellen sie ihr virtuelles Environment 
-3. Im folgenden werden ihre unter activity gespeicherten Daten sotiert
-4. Jetzt wird ein Graph in Matplotlib erstellt welcher ihre Leistungsdaten projiziert. Hierbei wird auf der X-Achse die Zeit in Sekunden und auf der Y-Achse die Power in Watt abgebildet. Hallo
+## Anwendung
+Dieser Code generiert ein von Matplotlib erstelltes Diagramm in welchem eine Power-Curve dargestellt. Es kann eine Liste von unsortierten Messwerten als input in die Applikation gegeben werden.
+## Setup
+- Laden sie sich das Repository in die gewünschte Programierumgebung
+- Öffnen sie die Conole und legen sie hier ein Virtuelles Enviorment an mit: ```python -m venv .venv```
+- Virtuelles Enviorment aktivieren: ```.\.venv\Scripts\activate```
+    - falls es hierbei zu einem ungewünschten Fehler kommt führen ```Set-ExecutionPolicy Unrestricted -Scope Process``` aus und aktivieren sie nochmal das Venv
+- Installieren sie alle benötigten packages mit ```pip install -r requirements.txt```
+- Laden sie nun ihre eigenen Daten in die Applikation hier wurde als Beispiel mit ```activity.csv``` als Datensatz gearbeitet
+- Führen sie nun ```python main.py``` aus
+### Anmerkungen zur Applikation
+  - Ihre Daten werden hier mithilfe des Bubble Sort Algorythmus wenn hier ein anderer Sortieralgorythmus gewünscht ist können sie diesen in dem File ```sort.py``` anpassen.
