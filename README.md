@@ -9,5 +9,5 @@ Dieser Code generiert ein von Matplotlib erstelltes Diagramm in welchem eine Pow
 - Installieren sie alle benötigten packages mit ```pip install -r requirements.txt```
 - Laden sie nun ihre eigenen Daten in die Applikation hier wurde als Beispiel mit ```activity.csv``` als Datensatz gearbeitet
 - Führen sie nun ```python main.py``` aus
-### Anmerkungen zur Applikation
+## Anmerkungen zur Applikation
   - Ihre Daten werden hier mithilfe des Bubble Sort Algorythmus wenn hier ein anderer Sortieralgorythmus gewünscht ist können sie diesen in dem File ```sort.py``` anpassen.
